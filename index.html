@@ -8,23 +8,40 @@
 	<link rel="shorcut icon" type="image/x-icon" href="favicon4" />
 	<link rel="author" type="text/plain" href="humans.txt" />
 	<link rel="sitemap" type="application/xml" href="sitemap.xml" />
+	<!-- CSS a partir de aca -->
 	<link rel="stylesheet" rel="css/estilos.css" />
-	
+	<!-- url de jQuery y denas scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script>
+		!window.jQuery && document.write("<script src='js/jquery.min.js'><\/script>");
+	</script>
+	<!-- script para navegadores menores que IE9 -->
+	<!-- [if lt IE 9] >
+	<script sec="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<! [endif] -->
 </head>
 <body>
 	<header>
-		Header		
+		<h1>SoyPadel Web</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Padel</a></li>
+				<li><a href="#">Multimedia</a></li>
+				<li><a href="#">Nosotros</a></li>
+				<li><a href="#">Cont&aacute;ctenos</a></li>
+			</ul>
+		</nav>
 	</header>
 	<section id="contenido">
-		<section =id"principal">
-			<article>
-				Article
+		<aside>
+			Aside Izquierda como w8
+		</aside>
+		<section id="principal">
+			<article id="menu-w8">
+				Article - Menu como w8
 			</article>
 		</section>
-		<aside>
-			Aside
-		</aside>
-		
 	</section>
 	<footer>
 		Footer
